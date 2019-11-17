@@ -26,6 +26,8 @@ class alzyOSCSessionComponent(SessionComponent, LO2Mixin):
 
         self.add_callback('/live/session/a/clip/names', self._session_a_clip_names)
         self.add_callback('/live/session/a/clip/names/all', self._session_a_clip_names_all)
+        
+        self.add_callback('/live/session/a/clip/colors/all', self._session_a_clip_colors_all)
 
         self.add_callback('/live/session/a/launch', self._session_a_launch)
 
@@ -38,6 +40,8 @@ class alzyOSCSessionComponent(SessionComponent, LO2Mixin):
 
         self.add_callback('/live/session/b/clip/names', self._session_b_clip_names)
         self.add_callback('/live/session/b/clip/names/all', self._session_b_clip_names_all)
+
+        self.add_callback('/live/session/b/clip/colors/all', self._session_b_clip_colors_all)
 
         self.add_callback('/live/session/b/launch', self._session_b_launch)
 
@@ -222,6 +226,24 @@ class alzyOSCSessionComponent(SessionComponent, LO2Mixin):
 
         self.send('/live/session/a/clip/names/all', *b)
 
+    def _session_a_clip_colors_all(self, msg, src):
+        """ Gets a block of clip colors
+        """
+        b = []
+        for i in range(0, len(self._scenes)):
+            if i < len(self._scenes):
+                s = self._scenes[i]
+                for j in range(self.track_offset(), self._assigned_width):
+                    if j < len(s._clip_slots):
+                        c = s._clip_slots[j]
+                        b.append(c._get_color())
+                    else:
+                        b.append('')
+            else:
+                b.append('')
+
+        self.send('/live/session/a/clip/colors/all', *b)
+
 
 
     # SESSION B CALLBACKS
@@ -297,4 +319,28 @@ class alzyOSCSessionComponent(SessionComponent, LO2Mixin):
                 b.append('')
 
         self.send('/live/session/b/clip/names/all', *b)
+
+    def _session_b_clip_colors_all(self, msg, src):
+        """ Gets a block of clip colors
+        """
+        b = []
+        session_b = self._active_instances[1]._session
+        scene_offset = 0
+        track_offset = session_b.track_offset()
+        toScene = len(self._scenes)
+        toTrack = track_offset + self._assigned_width
+
+        for i in range(scene_offset, toScene):
+            if i < len(self._scenes):
+                s = self._scenes[i]
+                for j in range(track_offset, toTrack):
+                    if j < len(s._clip_slots):
+                        c = s._clip_slots[j]
+                        b.append(c._get_color())
+                    else:
+                        b.append('')
+            else:
+                b.append('')
+
+        self.send('/live/session/b/clip/colors/all', *b)
 

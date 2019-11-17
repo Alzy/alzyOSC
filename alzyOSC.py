@@ -81,7 +81,7 @@ class alzyOSC(ControlSurface):
                 # by reference so it may access side b's session component.
                 self._session._active_instances = alzyOSC._active_instances
             else:
-                self._session = SessionComponent(4, 4)
+                self._session = SessionComponent(4, 5)
                 self._session.name = 'Session_Control'
                 self._session.side = "b"
 
@@ -108,10 +108,10 @@ class alzyOSC(ControlSurface):
         LO2Mixin.set_log(self.log_message)
         
         self._mixer = LO2MixerComponent(1)
-        self._session = alzyOSCSessionComponent(4, 4)
+        self._session = alzyOSCSessionComponent(4, 5)
         self._session.set_mixer(self._mixer)
         self._session._assigned_width = 4
-        self._session._assigned_height = 4
+        self._session._assigned_height = 5
         self._transport = LO2TransportComponent()
         
         self.parse()

@@ -1,0 +1,984 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dec",
+				"decimalToHexString"
+			],
+			[
+				"color",
+				"colorInRGB"
+			],
+			[
+				"labe",
+				"labelColor"
+			],
+			[
+				"lab",
+				"labelColor"
+			],
+			[
+				"hex",
+				"hexToRgb"
+			],
+			[
+				"colo",
+				"colorInHex"
+			],
+			[
+				"scen",
+				"sceneDownSkip"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…}"
+			],
+			[
+				"PO",
+				"PORT_OUT"
+			],
+			[
+				"tolo",
+				"toLowerCase\t(): string String"
+			],
+			[
+				"sess",
+				"sessionLetter"
+			],
+			[
+				"fun",
+				"function_with_name"
+			],
+			[
+				"is",
+				"is_playing"
+			],
+			[
+				"S",
+				"SESSION_A_CLIPMAP"
+			],
+			[
+				"btn",
+				"btnPressed"
+			],
+			[
+				"aff",
+				"affected_clip"
+			],
+			[
+				"ses",
+				"sessionLetter"
+			],
+			[
+				"UNS",
+				"unsetMatrixButton"
+			],
+			[
+				"osc",
+				"oscAddress"
+			],
+			[
+				"sid",
+				"side_b_cue_value"
+			],
+			[
+				"side",
+				"side_a_cue_value"
+			],
+			[
+				"side_a",
+				"side_a_cue_track"
+			],
+			[
+				"reda",
+				"redraw_session_a"
+			],
+			[
+				"SE",
+				"SESSION_B_CLIPMAP"
+			],
+			[
+				"af",
+				"affected_track"
+			],
+			[
+				"isS",
+				"isSessionA"
+			],
+			[
+				"else",
+				"else_if"
+			],
+			[
+				"ran",
+				"randN"
+			],
+			[
+				"send",
+				"sendOsc"
+			],
+			[
+				"hand",
+				"handle_session_a_track_state_change"
+			],
+			[
+				"track",
+				"track_state"
+			],
+			[
+				"end",
+				"end_pos"
+			],
+			[
+				"start",
+				"start_pos"
+			],
+			[
+				"star",
+				"start_pos"
+			],
+			[
+				"red",
+				"redraw_session_a"
+			],
+			[
+				"props",
+				"propsMsg"
+			],
+			[
+				"fucn",
+				"function"
+			],
+			[
+				"tr",
+				"track_offset"
+			],
+			[
+				"_se",
+				"_session_a_clip_names"
+			],
+			[
+				"to",
+				"toTrack"
+			],
+			[
+				"_a",
+				"_assigned_width"
+			],
+			[
+				"as",
+				"_assigned_height"
+			],
+			[
+				"SC",
+				"SCENE"
+			],
+			[
+				"T",
+				"TRACK"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"sc",
+				"scene_offset"
+			],
+			[
+				"of",
+				"offsets"
+			],
+			[
+				"cli",
+				"_clip_slot"
+			],
+			[
+				"se",
+				"session_b"
+			],
+			[
+				"clip",
+				"clipslot"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"bt",
+				"btnPressed"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"ar",
+				"args"
+			],
+			[
+				"parse",
+				"parseInt\t( s: string, radix: int ): int Global"
+			],
+			[
+				"_",
+				"_active_instances"
+			],
+			[
+				"set",
+				"set_session_properties\tfunction"
+			],
+			[
+				"in",
+				"instanceIndex\tstatement"
+			],
+			[
+				"ins",
+				"instanceIndex\tstatement"
+			],
+			[
+				"mi",
+				"midi_cc"
+			],
+			[
+				"a",
+				"alzyOSC"
+			],
+			[
+				"tra",
+				"track_offset"
+			],
+			[
+				"alzy",
+				"alzyOSC"
+			],
+			[
+				"con",
+				"contains"
+			],
+			[
+				"Na",
+				"NAVHEIGHT"
+			],
+			[
+				"getEle",
+				"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Document"
+			],
+			[
+				"P",
+				"PAGESUBHEADERCOLOR"
+			],
+			[
+				"N",
+				"NAVTEXTOLOR"
+			],
+			[
+				"n",
+				"NAVCOLOR"
+			],
+			[
+				"sec",
+				"section\tTag"
+			],
+			[
+				"lo",
+				"log\t( x: number ): number Math"
+			],
+			[
+				"previous",
+				"previousPageIndex"
+			],
+			[
+				"ope",
+				"openPage"
+			],
+			[
+				"el",
+				"elementOrSelector"
+			],
+			[
+				"que",
+				"querySelector\t( selectors: DOMString ): Element Document"
+			],
+			[
+				"strin",
+				"String\t( value: any ): String String"
+			],
+			[
+				"han",
+				"handle"
+			],
+			[
+				"confi",
+				"config"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"this",
+				"thisPageHead"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "alzyOSC.py",
+			"settings":
+			{
+				"buffer_size": 4459,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "alzyOSCSessionComponent.py",
+			"settings":
+			{
+				"buffer_size": 11791,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LO2ClipSlotComponent.py",
+			"settings":
+			{
+				"buffer_size": 6365,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/admin/Documents/alzyOSC-custom-module.js",
+			"settings":
+			{
+				"buffer_size": 14181,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/admin/Documents/osc-tool.py",
+			"settings":
+			{
+				"buffer_size": 657,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/admin/Desktop/startLiveAdhoc.bat",
+			"settings":
+			{
+				"buffer_size": 119,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "netsh wlan set hostednetwork mode=allow ssid=alzyD"
+			}
+		},
+		{
+			"file": "/C/Users/admin/Desktop/startLiveAdhocService.bat",
+			"settings":
+			{
+				"buffer_size": 37,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "netsh wlan start hostednetwork;"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/admin/Documents/alzyOSC"
+	],
+	"file_history":
+	[
+		"/C/Users/admin/Documents/alzyOSC/.gitignore",
+		"/C/Users/admin/Documents/alzyOSC/LO2SceneComponent.py",
+		"/C/Users/admin/Documents/alzyOSC/LO2ClipSlotComponent.py",
+		"/C/Users/admin/Documents/LiveOSC2/LO2SessionComponent.py",
+		"/C/Users/admin/Documents/alzyOSC/LO2ChannelStripComponent.py",
+		"/C/Users/admin/Documents/LiveOSC2/LiveOSC2.py",
+		"/C/Users/admin/Documents/alzyOSC/make.bat",
+		"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/User/alzyOSC copy to Ableton.sublime-build",
+		"/C/Users/admin/Documents/alzyOSC/alzyOSCSessionComponent.py",
+		"/C/Users/admin/Documents/alzyOSC/controlMaps.py",
+		"/C/Users/admin/Documents/alzyOSC/LO2OSC.py",
+		"/C/Users/admin/Documents/alzyOSC/LO2Mixin.py",
+		"/C/Users/admin/Documents/alzyOSC/OSC.py",
+		"/C/Users/admin/Documents/alzyOSC/midiMaps.py",
+		"/C/ProgramData/Ableton/Live 9 Standard/Resources/MIDI Remote Scripts/alzyOSC/alzyOSC.py",
+		"/C/Users/admin/Documents/Ableton Alzy OSC/__init__.py",
+		"/C/Users/admin/Documents/Ableton Alzy OSC/alzyOSC.py",
+		"/C/Program Files (x86)/Yeco/turboactivate/__init__.py",
+		"/C/Program Files (x86)/Yeco/yeco.kv",
+		"/C/Program Files (x86)/Yeco/Yeco.exe.manifest",
+		"/C/Program Files (x86)/Yeco/tcl/msgs/en_au.msg",
+		"/C/Program Files (x86)/Yeco/tk/msgs/en.msg",
+		"/C/Users/admin/Desktop/__pycache__/__init__.cpython-37.pyc",
+		"/C/Program Files (x86)/Yeco/turboactivate/__init__.pyc",
+		"/C/Users/admin/Desktop/__init__.py",
+		"/C/Users/admin/Desktop/turboactivate/__pycache__/__init__.cpython-37.pyc",
+		"/C/Program Files (x86)/Yeco/yeco.ini",
+		"/C/Users/admin/Downloads/CDNSP-GUI-master/CDNSP-GUI-config.json",
+		"/C/Users/admin/Documents/pageEditor/accordion 2/styles/_editor.scss",
+		"/C/Users/admin/Documents/pageEditor/accordion 2/styles/_navbar.scss",
+		"/C/Users/admin/Documents/pageEditor/accordion 2/styles/styles.scss",
+		"/C/Users/admin/Documents/pageEditor/accordion 2/scripts/pageEditor.js",
+		"/C/Users/admin/Documents/pageEditor/accordion 2/editor.html",
+		"/C/Users/admin/Documents/pageEditor/accordion 2/styles/navbar.scss",
+		"/C/Users/admin/Documents/pageEditor/accordion 2/styles/editor.scss",
+		"/C/Users/admin/Documents/pageEditor/carousel/script.js",
+		"/C/Users/admin/Documents/pageEditor/carousel/styles.scss",
+		"/C/Users/admin/Documents/pageEditor/carousel/index.html"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 124.0,
+		"where_history":
+		[
+			"C:\\Users\\admin\\Documents\\alzyOSC"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"A_",
+			"99",
+			"name",
+			"names",
+			"conso",
+			"state",
+			"intargs",
+			"name",
+			"colors",
+			"name",
+			"down",
+			"log",
+			"redraw",
+			"solo_listener(",
+			"listener",
+			"solo",
+			"track",
+			"_A",
+			"SESSION_A_OFFSETS",
+			"handle_session_a_track_state_change",
+			"handle_session_a_clip_state_change",
+			"_A",
+			"_a",
+			"a",
+			"set_session_a_offsets",
+			"a",
+			"_session_b_clip_names_all",
+			"i",
+			"track",
+			"affected_track",
+			"0",
+			"1",
+			"0",
+			"off",
+			"1",
+			"log",
+			"get",
+			"SESSION_B_OFFSET",
+			"scene",
+			"height",
+			"self",
+			"_session_a_offsets",
+			"block",
+			"set_scene",
+			"is_cli",
+			"fire",
+			"play",
+			"get_col",
+			"tracks_to_use",
+			"_scene_count",
+			"LO2SceneComponent",
+			"LO2ClipSlotComponent",
+			"slot",
+			"sid",
+			"tid",
+			"name",
+			"mute",
+			"track/mute",
+			"alzyOSC",
+			"a",
+			"clip",
+			"_scenes_count",
+			"_reassign_scenes",
+			"set_session_properties",
+			"self.instanceIndex",
+			"LO2SessionComponent",
+			"session",
+			" =",
+			"alzySessionComponent",
+			"LO2SessionComponent",
+			"2",
+			"15",
+			",",
+			"side_a",
+			"SIDE_A",
+			"_a",
+			"a",
+			"_set_session_highlight",
+			"session",
+			"A",
+			"MPDtwentysexy",
+			"trial",
+			"turbo",
+			"dll",
+			"is_genuine",
+			"is_activated",
+			"\t",
+			"<h3>",
+			"\t\t\t<div class=\"content\">\n",
+			"div",
+			"Please",
+			"Once",
+			"onModeSwitch",
+			"(config)",
+			"options",
+			"div"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "alzyOSC.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4140,
+								4140
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "alzyOSCSessionComponent.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1714,
+								1714
+							],
+							[
+								1748,
+								1748
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 530.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "LO2ClipSlotComponent.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 6365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/C/Users/admin/Documents/alzyOSC-custom-module.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2478,
+								2478
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1864.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/admin/Documents/osc-tool.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								506,
+								491
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/admin/Desktop/startLiveAdhoc.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"auto_name": "netsh wlan set hostednetwork mode=allow ssid=alzyD",
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/admin/Desktop/startLiveAdhocService.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "netsh wlan start hostednetwork;",
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 45.6
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.0325520833333,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 95.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"project": "alzyOSC.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
