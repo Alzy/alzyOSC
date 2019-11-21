@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"track",
+				"track_state_"
+			],
+			[
 				"dec",
 				"decimalToHexString"
 			],
@@ -122,10 +126,6 @@
 			[
 				"hand",
 				"handle_session_a_track_state_change"
-			],
-			[
-				"track",
-				"track_state"
 			],
 			[
 				"end",
@@ -358,41 +358,12 @@
 			}
 		},
 		{
-			"file": "/C/Users/admin/Documents/alzyOSC-custom-module.js",
+			"file": "openstagecontrol_template/alzyOSC-custom-module.js",
 			"settings":
 			{
-				"buffer_size": 14181,
+				"buffer_size": 14773,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/admin/Documents/osc-tool.py",
-			"settings":
-			{
-				"buffer_size": 657,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/admin/Desktop/startLiveAdhoc.bat",
-			"settings":
-			{
-				"buffer_size": 119,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "netsh wlan set hostednetwork mode=allow ssid=alzyD"
-			}
-		},
-		{
-			"file": "/C/Users/admin/Desktop/startLiveAdhocService.bat",
-			"settings":
-			{
-				"buffer_size": 37,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "netsh wlan start hostednetwork;"
 			}
 		}
 	],
@@ -480,10 +451,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/admin/Documents/alzyOSC"
+		"/C/Users/admin/Documents/alzyOSC",
+		"/C/Users/admin/Documents/alzyOSC/openstagecontrol_template"
 	],
 	"file_history":
 	[
+		"/C/Users/admin/Documents/osc-tool.py",
+		"/C/Users/admin/Documents/alzyOSC-custom-module.js",
+		"/C/Users/admin/Desktop/startLiveAdhoc.bat",
+		"/C/Users/admin/Desktop/startLiveAdhocService.bat",
 		"/C/Users/admin/Documents/alzyOSC/.gitignore",
 		"/C/Users/admin/Documents/alzyOSC/LO2SceneComponent.py",
 		"/C/Users/admin/Documents/alzyOSC/LO2ClipSlotComponent.py",
@@ -525,7 +501,7 @@
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 44.8
 	},
 	"find_in_files":
 	{
@@ -540,6 +516,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"log",
+			"colors",
 			"A_",
 			"99",
 			"name",
@@ -694,7 +672,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -728,7 +706,7 @@
 						"translation.y": 530.4,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -758,30 +736,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 3,
-					"file": "/C/Users/admin/Documents/alzyOSC-custom-module.js",
+					"file": "openstagecontrol_template/alzyOSC-custom-module.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14181,
+						"buffer_size": 14773,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2478,
-								2478
+								10269,
+								10272
 							]
 						],
 						"settings":
@@ -791,98 +769,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1864.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/admin/Documents/osc-tool.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 657,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								506,
-								491
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Users/admin/Desktop/startLiveAdhoc.bat",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 119,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								112,
-								112
-							]
-						],
-						"settings":
-						{
-							"auto_name": "netsh wlan set hostednetwork mode=allow ssid=alzyD",
-							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 8170.4,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/Users/admin/Desktop/startLiveAdhocService.bat",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 37,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								31,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "netsh wlan start hostednetwork;",
-							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -890,7 +780,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -916,7 +806,7 @@
 		"cols":
 		[
 			0.0,
-			0.0325520833333,
+			0.166115459688,
 			1.0
 		],
 		"rows":
@@ -938,7 +828,7 @@
 	"project": "alzyOSC.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":

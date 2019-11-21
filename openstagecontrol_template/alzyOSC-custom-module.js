@@ -165,6 +165,28 @@
       })
     }
 
+
+    function handle_track_mute_change (args) {
+      var track = (args[0]['value'])
+      track = (track < 4) ? 'track_state_a_'+track : 'track_state_b_'+(track-4)
+      var state = (args[1]['value']) ? '0.25;' : '1;'
+
+      var msg = {
+        "css": "opacity: " + state
+      }
+
+      sendOsc({
+        address: '/EDIT',
+        args: [
+          {type: 's', value: track},
+          {type: 's', value: JSON.stringify(msg)}
+        ],
+        host: HOST,
+        port: PORT
+      })
+
+    }
+
     function handle_clip_state_change(args) {
       var track = (args[0]['value'])
       var isSessionA = (track < 4)
@@ -393,6 +415,9 @@
             break;
           case '/live/track/state':
             handle_track_state_change(args);
+            break;
+          case '/live/track/mute':
+            handle_track_mute_change(args);
             break;
           case '/live/clip/state':
             handle_clip_state_change(args);

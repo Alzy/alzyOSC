@@ -176,7 +176,7 @@
               "height": "8.333%",
               "label": false,
               "color": "auto",
-              "css": "font-size: 2em; ",
+              "css": "font-size: 2em; color: blue",
               "address": "/track_state_a_0",
               "preArgs": "",
               "default": "",
@@ -409,7 +409,8 @@
               "unit": "",
               "origin": 0,
               "touchAddress": "",
-              "meterAddress": ""
+              "meterAddress": "",
+              "sensitivity": 1
             },
             {
               "type": "panel",
