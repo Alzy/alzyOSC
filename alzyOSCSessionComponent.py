@@ -48,8 +48,9 @@ class alzyOSCSessionComponent(SessionComponent, LO2Mixin):
 
         # Other Callbacks
         self.add_callback('/live/scene/name/block', self._scene_name_block)
-        self.add_callback('/live/clip/name/block', self._clip_name_block)
+        self.add_callback('/live/scene/name/block/all', self._scene_name_block_all)
 
+        self.add_callback('/live/clip/name/block', self._clip_name_block)
         self.add_callback('/live/clip/color/block', self._clip_color_block)
 
         self.add_function_callback('/live/scenes', self._lo2_on_scene_list_changed)
@@ -105,15 +106,33 @@ class alzyOSCSessionComponent(SessionComponent, LO2Mixin):
         """
         b = []
         for i in range(msg[2], msg[2]+msg[3]):
-            if i < len(self._scenes):
-                s = self.scene[i]
-                b.append(i, s.scene_name)
+            if i < len(self.song().scenes):
+                s = self.song().scenes[i]
+                b.append("{}, {}".format(i, s.name))
             else:
-                b.append(i, '')
+                break
 
-        self.send('/live/scene/name/block', b)
-    
-    
+        self.send('/live/scene/name/block', *b)
+
+
+
+    # Scene Callbacks
+    def _scene_name_block_all(self, msg, src):
+        """ Gets block of scene names
+        """
+        b = []
+        for i in range(0, len(self._scenes)):
+            if i < len(self.song().scenes):
+                s = self.song().scenes[i]
+                # self.log_message(s.name)
+                b.append(s.name)
+            else:
+                break
+
+        self.send('/live/scene/name/block/all', *b)
+
+
+
     def _scene_selected(self, msg, src):
         """  Selects a scene to view
             /live/scene/selected (int track) """
@@ -158,7 +177,6 @@ class alzyOSCSessionComponent(SessionComponent, LO2Mixin):
                 for j in range(msg[3], msg[3]+msg[5]):
                     if j < len(s._clip_slots):
                         c = s._clip_slots[j]
-                        self.log_message(c._get_color())
                         b.append(c._get_color())
                     else:
                         b.append('')
